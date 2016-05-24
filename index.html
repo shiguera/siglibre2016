@@ -1,0 +1,282 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>OCTAVE</title>
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/black.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+
+				<!-- Portada -->
+				<section>
+						<div>
+							<div style='float:left; width: 150px'>
+								<img src='img/OctaveLogo_400x400.png' width='150' style='float:left'/>
+							</div>
+							<div style='width: 600px; float: left'>
+								<h2>Octave</h2>
+								<h4>La supercalculadora GIS</h4>
+							</div>
+							<div style='float:right; width: 150px'>
+								<img src='img/OctaveLogo_400x400.png' width='150' style='float:left'/>
+							</div>
+						</div>
+						<div style='margin-top: 20px;'>
+							<img src='img/peaks.png' width='600'/>
+						</div>
+				</section>
+
+				<!-- BIO -->
+				<section>
+	        <h3 style='float:left;'>Santiago Higuera</h3>
+	        <div style='float: right; width: 300px'>
+	          <img src="img/fotomia.jpg" style="float: right; width:280px"/>
+	        </div>
+	        <div style='float: left; width:650px'>
+	          <ul>
+	            <li><a href="http://twitter.com/santiagohiguera">@santiagohiguera</a></li>
+	            <li>Profe en <a href='https://twitter.com/caminosupm?lang=es'>@caminosupm</a></li>
+	            <li>Mi empresa es <a href="http://mercatorlab.com">Mercatorlab</a></li>
+	            <li>Participo en:
+	            <ul>
+	            	<li><a href="http://www2.caminos.upm.es/Departamentos/matematicas/WEBGIE/">Pensamiento Matemático</a></li>
+	              <li><a href="http://osgeo.org">OSGeo</a> y
+	                <a href="http://es.osgeo.org">OSGeo-es</a></li>
+	              <li><a href="http://madrid.geoinquietos.org">Geoinquietos
+	                Madrid</a></li>
+	              <li><a href="http://osm.org">OpenStreetMap</a>
+	            </ul>
+	            </li>
+	            <li>Escribo en:
+	              <ul>
+	                <li><a href="http://mercatorlab.com/wordpress/">Blog Descartes</a></li>
+	                <li><a href="http://infocaminos.readthedocs.org/en/latest/">Manual GNU-Octave</a></li>
+	                <li><a href="http://openlayers.bicimap.es/manualOpenLayers.html">Manual OpenLayers</a></li>
+	              </ul>
+	            </li>
+	          </ul>
+	        </div>
+       		</section>
+
+       	<!-- Ranking Lenguajes -->
+				<section>
+					<h3>Índice TIOBE Lenguajes más utilizados</h3>
+					<a href='http://www.tiobe.com/tiobe_index?page=index' target='_blank'>'http://www.tiobe.com/tiobe_index?page=index'</a>
+					<img src='img/lenguajes.png' width='650' />
+				</section>
+
+       	<!-- Ranking Lenguajes Aálisis numérico -->
+       	<section>
+					<h3>Lenguajes para análisis numérico</h3>
+					<ul>
+						<li>MATLAB - Octave</li>
+						<li>Python + NumPy + SciPy</li>
+						<li>R</li>
+						<li>Julia</li>
+						<li>Fortran</li>
+					</ul>
+				</section>
+
+				<section>
+					<h3>matplotlib</h3>
+					<h5>Librería python para gráficos que emula el interface Matlab-Octave</h5>
+					<img src='img/matplotlib.png' />
+				</section>
+				<!-- speed tests -->
+				<section>
+					<h3>Speed tests</h3>
+					<ul>
+						<li>MATLAB: El más rápido</li>
+						<li>Octave y Python: similares, buenas alternativas a MATLAB</li>
+					</ul>
+					<img src='img/speedtests.png' width='600' />
+				</section>
+				<!-- Interconexión con otros lenguajes -->
+				<section>
+					<h3>Interconexión con otros lenguajes</h3>
+					<ul>
+						<li>Python Oct2Py: Acceder a Octave desde Python</li>
+						<li>Java joPAS: Acceder a Octave desde Java</li>
+						<li>Java package: Acceder a clases java desde Octave</li>
+						<li>Oct-files: Compilar y usar C++ desde Octave</li>
+					</ul>
+				</section>
+
+				<section>
+					<h3>Octave IDE</h3>
+					<img src='img/octaveide.png' />
+				</section>
+
+				<section>
+					<h3>Octave CONSOLE</h3>
+					<img src='img/octaveconsole.png' width='800'/>
+				</section>
+				
+				<section>
+					<h3>Octave packages: forge</h3>			
+					<a href='http://octave.sourceforge.net/packages.php' target='_blank'>http://octave.sourceforge.net/packages.php</a><br/>		
+					<img src='img/packages.png' width='1000' />
+				</section>
+
+				<section>
+					<h3>Octave packages: destacados (I)</h3>
+					<div style=''>
+						<img src='img/pkgs1.png' />
+					</div>
+				</section>
+
+				<section>
+					<h3>Octave packages: destacados (II)</h3>
+					<div style=''>
+						<img src='img/pkgs2.png' />
+					</div>
+				</section>
+
+				<section>
+					<h3>Octave packages: instalación</h3>
+					<div style='background: #ffffff; margin-top: 100px'>
+						<p style='margin: auto; font-family: "Lucida Console", Monaco, monospace; color: #000000'>pkg install -forge -auto package_name</p>
+					</div>
+				</section>
+				<!-- io package -->
+				<section>
+					<h3>io package</h3>
+					<h5>Input/Output in external formats.</h5>
+					<ul>
+						<li>object2json</li>
+						<li>CSV file functions</li>
+						<li>XLS and ODS I/O</li>
+						<li>DBF I/O</li>
+						<li>XML I/O</li>
+					</ul>
+					<a href='http://octave.sourceforge.net/io/overview.html' target='_blank'>http://octave.sourceforge.net/io/overview.html</a><br/>
+				</section>
+
+				<!-- geometry package -->
+				<section>
+					<h3>geometry package</h3>
+					<h5>Geometric computing to create, transform, manipulate and display geometric primitives.</h5>
+					<ul>
+						<li>2D</li>
+						<ul>
+							<li>Points, Vectors, Angles, Rays, Lines, Polylines, Boxes</li>
+							<li>Circles, Ellipses, CubicBezier, Polygons, Polynomial</li>
+							<li>Transformations</li>
+						</ul>
+						<li>3D</li>
+						<ul>
+							<li>Points, Lines, Edges, Planes, Meshes</li>
+							<li>Espheres, Boxes, Polygons</li>
+							<li>Transformations</li>
+						</ul>
+					</ul>
+					<a href='http://octave.sourceforge.net/geometry/overview.html' target='_blank'>http://octave.sourceforge.net/geometry/overview.html</a><br/>
+
+				</section>
+
+				<!-- database package -->
+				<section>
+					<h3>database package</h3>
+					<h5>Interface to SQL databases, currently only postgresql using libpq.</h5>
+					<a href='http://octave.sourceforge.net/database/overview.html' target='_blank'>http://octave.sourceforge.net/database/overview.html</a><br/>
+				</section>
+
+				<!-- image package -->
+				<section>
+					<h3>image package</h3>
+					<h5>Functions for feature extraction, image statistics, spatial and geometric transformations, morphological operations, linear filtering, ...</h5>
+					<ul>
+						<li>Analysis, Statistics, Arithmetics</li>
+						<li>Black and White image functions</li>
+						<li>Colour maps and Colour controls</li>
+						<li>Display, Enhancement and Restoration</li>
+						<li>Filtering, Transforms and Spatial transformations</li>
+						<li>Morphological, Region based and Block Processing Operations</li>
+						<li>Read/ Write and Type conversions</li>
+					</ul>
+					<a href='http://octave.sourceforge.net/image/overview.html' target='_blank'>http://octave.sourceforge.net/image/overview.html</a><br/>
+				</section>
+
+				<!-- octproj package -->
+				<section>
+					<h3>octproj package</h3>
+					<h5>This package allows to call functions of PROJ.4 library for cartographic projections transformations.</h5>
+					<a href='http://octave.sourceforge.net/octproj/overview.html' target='_blank'>http://octave.sourceforge.net/octproj/overview.html</a><br/>
+				</section>
+
+				<!-- mapping package -->
+				<section>
+					<h3>mapping package</h3>
+					<h5>Simple mapping and GIS .shp and raster file functions.</h5>
+					<ul>
+						<li>Shape files</li>
+						<li>Raster files</li>
+						<li>Paths in curves</li>
+						<li>Lengths and angles</li>
+						<a href='http://octave.sourceforge.net/mapping/overview.html' target='_blank'>http://octave.sourceforge.net/mapping/overview.html</a><br/>
+					</ul>
+				</section>
+
+				<section>
+					<h1>THE END</h1>
+					<h3>BY Santiago Higuera</h3>
+					
+					<p>
+					<div style="width: 300px;margin-left:auto; margin-right:auto">
+						<a class="image" href="http://wiki.osgeo.org/wiki/Geo_inquietos_Madrid" target="_blank">
+						<img src="img/geoinquietosmad_logo.png" alt="geoinquietosmad" style="float:left; margin:10px; width: 100px">
+						<img src="img/osgeo-es.png" alt="osgeoes" style="float:left; margin:10px; width: 100px">
+						</a>
+					</div>
+          </p>
+          <p style='clear:both'>
+            Esta obra está bajo una Licencia<br/><a rel="license"
+            href="http://creativecommons.org/licenses/by-nc-sa/3.0/deed.es">
+              Creative Commons Atribución-NoComercial-CompartirIgual
+              3.0 Unported</a>.
+          </p>
+            <a rel="license"
+            href="http://creativecommons.org/licenses/by-nc-sa/3.0/deed.es">
+            <img src="img/cc-by-nc-sa.png" class="no-back" width='200'></a>
+					</section>
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+		
+
+		<script>
+			// More info https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				history: true,
+
+				// More info https://github.com/hakimel/reveal.js#dependencies
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+	</body>
+</html>
